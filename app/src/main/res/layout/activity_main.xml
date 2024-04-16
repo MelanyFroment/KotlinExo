@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity"
+    android:layout_marginTop="200dp">
+
+    <EditText
+        android:id="@+id/editTextNom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nom"
+        android:minHeight="48dp"
+        android:padding="8dp"
+        android:layout_gravity="center_vertical"/>
+
+    <EditText
+        android:id="@+id/editTextProfession"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Profession"
+        android:minHeight="48dp"
+        android:padding="8dp"
+        android:layout_gravity="center_vertical"/>
+
+    <EditText
+        android:id="@+id/editTextSociete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Société"
+        android:minHeight="48dp"
+        android:padding="8dp"
+        android:layout_gravity="center_vertical"/>
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="Soumettre" />
+
+</LinearLayout>
