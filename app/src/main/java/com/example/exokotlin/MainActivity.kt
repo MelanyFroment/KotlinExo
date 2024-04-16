@@ -26,7 +26,6 @@ class MainActivity : AppCompatActivity() {
             val profession = editTextProfession.text.toString()
             val societe = editTextSociete.text.toString()
 
-            // Créer un intent pour passer à SecondActivity avec les données
             val intent = Intent(this, SecondActivity::class.java).apply {
                 putExtra("nom", nom)
                 putExtra("profession", profession)
